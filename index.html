@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Meal For Your Ingredients</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel = "stylesheet" href = "style.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+<!-- header for logo and name  -->
+
+  <header>
+    <div class="black"></div>
+    <h1>CRAV🍴NGS</h1>
+    <img class="goodfood" src="./Good-food-logo-design-on-transparent-background-PNG-removebg-preview.png" alt="">
+  </header>
+
+  <!-- main section of the website containing random dishes, search bar and suggestion dishes  -->
+  
+    <div class = "meal-container">
+      <div class = "search">
+        <div class = "search-box">
+          <input type = "text" class = "search-control" placeholder="Enter a Category" id = "search-input" list="data-list">
+          <datalist id="data-list">
+            <option value="Chicken"></option>
+            <option value="Vegetarian"></option>
+            <option value="Lamb"></option>
+            <option value="Beef"></option>
+            <option value="Vegan"></option>
+            <option value="Starter"></option>
+            <option value="Seafood"></option>
+            <option value="Dessert"></option>
+            <option value="Goat"></option>
+            <option value="Side"></option>
+            <option value="Pork"></option>
+            <option value="Breakfast"></option>
+            <option value="Pasta"></option>
+          </datalist>
+          <button type = "submit" class = "search-btn btn" id = "search-btn">
+          </button>
+          <img class="icon" src="./magnifying-glass-or-loupe-the-white-color-icon-vector-15662539-removebg-preview.png" alt="">
+        </div>
+        <div id="random-dish"></div>
+      </div>
+
+      <div class = "meal-display">
+        <div id= "meal">
+        </div>
+      </div>
+
+     
+
+
+      <div class = "meal-details">
+        <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+          ❎
+        </button>
+        <h1 id="name"></h1>
+        <h2>Ingredients</h2>
+        <div class = "meal-details-content">
+          
+
+
+        </div>
+        
+      </div>
+    </div>
+  
+
+
+
+  <script src = "app.js"></script>
+</body>
+</html>

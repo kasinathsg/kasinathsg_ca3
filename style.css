@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: rgb(240,240,240);
+    background-image: url(./wood\ _texture3127.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    overflow-x: hidden;
+
+}
+
+header h1{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    position: relative;
+    left: 678px;
+    top: -80px;
+}
+
+.goodfood{
+    height: 90px;
+    position: relative;
+    top: -160px;
+    left: 597px;
+}
+
+.black{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+
+}
+
+
+#meal{  
+    position: relative;
+    top: 60px;
+    font-family: 'Montserrat';
+    left: 30px;
+    color:white;
+}
+
+
+.btn{
+    font-family: inherit;
+    cursor: pointer;
+    outline: 0;
+    font-size: 1.05rem;
+}
+
+.title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    position: relative;
+    top: 99px;
+    color: #241d1d;
+    font-family: 'Montserrat';
+}
+
+
+
+.meal-container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+
+}
+
+.search cite{
+    font-size: 1rem;
+}
+.search-box{
+    margin: 1.2rem 0;
+    display: flex;
+   
+}
+.search-control,
+.search-btn{
+    width: 500px;
+    height: 30px;
+}
+.search-control{
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-family: inherit;
+    border: 1px solid black;
+    color: black;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    position: relative;
+    top: 322px;
+    left: 330px;
+    font-family: 'Montserrat';
+}
+
+.search-btn{
+    width: 40px;
+    height: 30px;
+    font-size: 1.8rem;
+    background-color: #241d1d;
+    border: 1px solid black;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    position: relative;
+    top: 322px;
+    left: 330px;
+   
+}
+
+.icon{
+    position: relative;
+    top: 327px;
+    left: 300px;
+    height: 18px;
+    width: 18px;
+}
+
+.mealdisplay{
+    margin-top: 4rem;
+
+}
+#meal{
+    margin: 2.4rem ;
+}
+.meal-item{
+    background-color: black;
+    height: 470px;
+    border-radius: 20px;
+    margin: 2rem;
+    width: 350px;
+    position: relative;
+    top: -220px;
+}
+
+.meal-img img{
+    width: 350px;
+    display: block;
+    height: 350px;
+}
+.meal-name{
+    padding: 1.5rem 0.5rem;
+}
+.meal-name h3{
+    font-size: 1.4rem;
+    font-family: 'Montserrat';
+
+}
+
+
+#random-dish{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}   
+
+
+
+.recipe-btn{
+    text-decoration: none;
+    background: orange;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 3px;
+    display: block;
+    width: 175px;
+    margin: 1rem auto;
+    color: black;
+    border: 2px solid black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    position: relative;
+    top: -9px;
+   
+    
+}
+.recipe-btn:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+
+.meal-details{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+    color: #fff;
+    background-color: crimson;
+    width: 600px;
+    font-family: 'Montserrat';
+    height: 70%;
+    overflow-y: scroll;
+    overflow-x: none
+    ;
+    display: none;
+    padding: 2rem 0;
+    border-radius: 10px;
+    
+}
+.meal-details-content{
+    text-align: left;
+    padding-left: 30px;
+}
+.meal-details::-webkit-scrollbar{
+    width: 10px;
+    
+}
+#web-info{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.showRecipe{
+    display: block;
+}
+
+.recipe-close-btn {
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
+    font-size: 1.8rem;
+    background-color: crimson;
+    border: none;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+.notFound{
+    grid-template-columns: 1fr!important;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 600;
+    width: 90%;
+}
+
+
+@media screen and (max-width: 600px){
+    body{
+        width: 100%;
+        background-color: rgb(240,240,240);
+        background-image: url(./assets/wood\ _texture3127.jpg);
+        background-repeat: repeat-y;
+        background-size: 100%;
+        overflow-x: hidden;
+    }
+
+    header h1{
+        color: white;
+        font-family: 'Montserrat';
+        font-size: 30px;
+        position: relative;
+        left: 118px;
+        top: -68px;
+    }
+
+    .goodfood{
+        height: 80px;
+        position: relative;
+        top: -130px;
+        left: 47px;
+    }
+
+    .search-control{
+        padding: 0 1rem;
+        font-size: 1.1rem;
+        font-family: inherit;
+        border: 1px solid black;
+        color:black;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+        position: relative;
+        top: 352px;
+        left: -10px;
+        font-family: 'Montserrat';
+        width: 300px;
+    }
+    
+    .search-btn{
+        width: 40px;
+        height: 30px;
+        font-size: 1.8rem;
+        background-color: #241d1d;
+        border: 1px solid black;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        position: relative;
+        top: 352px;
+        left: -10px;
+       
+    }
+    
+    .icon{
+        position: relative;
+        top: 359px;
+        left: -37px;
+        height: 18px;
+        width: 18px;
+    }
+    .showRecipe{
+        width: 340px;
+        position: relative;
+        top: -19610px;
+        left: 159px;
+        display: block;
+    }
+
+    .meal-item{
+        position: relative;
+        left: -10px;    
+        height: 450px;
+        width: 200px;
+
+    
+    }
+
+    .meal-img img{
+        width: 200px;
+        height: 250px;
+    }
+
+    #meal{
+        display: grid;
+        grid-template-columns: repeat(1);
+        gap: 2rem;
+        position: relative;
+        left: -8px;
+        top: 50px;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    #meal{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4rem;
+    }
+    .meal-item{
+        margin: 0;
+    }
+    
+}
